@@ -100,29 +100,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@napi-rs/package-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@napi-rs/package-template@workspace:."
-  dependencies:
-    "@napi-rs/cli": ^2.10.3
-    "@swc-node/register": ^1.5.1
-    "@typescript-eslint/eslint-plugin": ^5.31.0
-    "@typescript-eslint/parser": ^5.31.0
-    ava: ^4.3.1
-    benny: ^3.7.1
-    chalk: ^5.0.1
-    eslint: ^8.20.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-prettier: ^4.2.1
-    husky: ^8.0.1
-    lint-staged: ^13.0.3
-    npm-run-all: ^4.1.5
-    prettier: ^2.7.1
-    typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -3396,6 +3373,29 @@ __metadata:
   checksum: 6f472a09c61d418c7e26c1c16d0bdc029549d512dbec6526216a1e59ec68100d07007d0097dcba69dddad883d6f2a83361b4bdfe0094a3d9a2af24158643d85e
   languageName: node
   linkType: hard
+
+"playground@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "playground@workspace:."
+  dependencies:
+    "@napi-rs/cli": ^2.10.3
+    "@swc-node/register": ^1.5.1
+    "@typescript-eslint/eslint-plugin": ^5.31.0
+    "@typescript-eslint/parser": ^5.31.0
+    ava: ^4.3.1
+    benny: ^3.7.1
+    chalk: ^5.0.1
+    eslint: ^8.20.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-prettier: ^4.2.1
+    husky: ^8.0.1
+    lint-staged: ^13.0.3
+    npm-run-all: ^4.1.5
+    prettier: ^2.7.1
+    typescript: ^4.7.4
+  languageName: unknown
+  linkType: soft
 
 "plur@npm:^5.1.0":
   version: 5.1.0
