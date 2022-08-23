@@ -43,6 +43,7 @@
     "access": "public"
   },
   "scripts": {
+    "start": "yarn build && node --expose-gc simple-test.js",
     "artifacts": "napi artifacts",
     "bench": "node -r @swc-node/register benchmark/bench.ts",
     "build": "napi build --platform --release --pipe \"prettier -w\"",
